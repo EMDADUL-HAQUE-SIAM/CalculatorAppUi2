@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/lightBlack"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="casio "
+        android:layout_margin="20dp"
+        android:textSize="25dp"
+/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text=""
+        android:textSize="25dp"
+        android:layout_margin="20dp"
+        />
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+       </LinearLayout>
+
+    <LinearLayout
+        style="@style/buttonRow">
+        <Button
+            style="@style/buttonNumbers"
+            android:text='AC'>
+
+        </Button>
+        <Button
+            style="@style/buttonNumbers"
+            android:text='x'>
+
+        </Button>
+        <Button
+            style="@style/buttonNumbers"
+            android:text='%'>
+
+        </Button>
+        <Button
+            style="@style/buttonNumbers"
+            android:text='/'>
+
+        </Button>
+
+        </LinearLayout>
+    <LinearLayout
+        style="@style/buttonRow">
+        <Button
+            style="@style/buttonNumbers"
+            android:text='7'>
+
+        </Button>
+        <Button
+            style="@style/buttonNumbers"
+            android:text='8'
+            android:textSize="18dp">
+
+        </Button>
+        <Button
+            style="@style/buttonNumbers"
+            android:text='9'>
+
+        </Button>
+        <Button
+            style="@style/buttonOperation"
+            android:text='x'>
+
+        </Button>
+
+    </LinearLayout>
+    <LinearLayout
+        style="@style/buttonRow">
+        <Button
+            style="@style/buttonNumbers"
+            android:text='4'>
+
+        </Button>
+        <Button
+            style="@style/buttonNumbers"
+            android:text='5'>
+
+        </Button>
+        <Button
+            style="@style/buttonNumbers"
+            android:text='6'>
+
+        </Button>
+        <Button
+            style="@style/buttonOperation"
+            android:text='-'>
+
+        </Button>
+
+    </LinearLayout>
+    <LinearLayout
+        style="@style/buttonRow">
+        <Button
+            style="@style/buttonNumbers"
+            android:text='1'>
+
+        </Button>
+        <Button
+            style="@style/buttonNumbers"
+            android:text='2'>
+
+        </Button>
+        <Button
+            style="@style/buttonNumbers"
+            android:text='3'>
+
+        </Button>
+        <Button
+            style="@style/buttonOperation"
+            android:text='+'>
+
+        </Button>
+
+    </LinearLayout>
+    <LinearLayout
+        style="@style/buttonRow">
+        <Button
+            style="@style/buttonNumbers"
+            android:text='.'>
+
+        </Button>
+        <Button
+            style="@style/buttonNumbers"
+            android:text='0'>
+
+        </Button>
+
+        <Button
+            style="@style/buttonNumbers"
+            android:background="@color/orange"
+            android:layout_weight="2"
+            android:text='='>
+
+        </Button>
+
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>
