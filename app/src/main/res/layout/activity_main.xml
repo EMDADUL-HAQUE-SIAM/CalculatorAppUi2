@@ -20,7 +20,7 @@
         android:layout_gravity="center"
         android:gravity="center"
         android:text="casio "
-        android:layout_margin="20dp"
+        android:layout_margin="18dp"
         android:textSize="25dp"
 />
     <TextView
